@@ -18,26 +18,44 @@
            <h1 class="text-center text-light">Contact Me</h1>
            <div class="border border-2 border-info shadow-lg p-2 bg-light">
                 <form action="#">
-                    <div class="row">
+                    <div class="row mb-2">
                         <div class="col">
                             <label class="form-label">First Name</label>
-                            <input type="text" name="FirstName" class="form-control"placeholder="First Name" aria-label="First Name" required>
+                            <input type="text" name="firstName" class="form-control"placeholder="First Name" aria-label="First Name" required>
                         </div>
                         <div class="col">
                             <label class="form-label">Last Name</label>
-                            <input type="text" name="LastName" class="form-control" placeholder="Last Name" aria-label="Last Name" required>
+                            <input type="text" name="lastName" class="form-control" placeholder="Last Name" aria-label="Last Name" required>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row mb-2">
                         <div class="col">
                             <label class="form-label">Email</label>
-                            <input type="email" name="Email" class="form-control" placeholder="Email" aria-label="Email" required>
+                            <input type="email" name="email" class="form-control" placeholder="Email" aria-label="Email" required>
                         </div>
                         <div class="col">
-                            
+                            <label class="form-label">Phone</label>
+                            <input type="tel" name="phone" class="form-control" placeholder="Phone" aria-label="Phone" required>
                         </div>
                         
                     </div>
+                    <div class="row mb-2">
+                        <div class="col">
+                            <label class="form-label">Subject</label>
+                            <input type="text" name="subject" class="form-control" placeholder="Subject" aria-label="Subject" required>
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col">
+                            <label class="form-label">Message</label>
+                            <textarea type="text" name="message" class="form-control" placeholder="Message" aria-label="Message" required></textarea>
+                        </div>
+                                              
+                    </div>
+                    <button class="btn btn-primary" type="submit">Button</button>
+                    
+                    
+                    
                 </form>
            </div>
         </div>
